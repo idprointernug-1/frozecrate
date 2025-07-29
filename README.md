@@ -37,7 +37,7 @@
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/froze-crate.git
+git clone [https://github.com/Frozecrate/frozecrate.git]
 cd froze-crate
 pip install -r requirements.txt
 python main.py
