@@ -13,7 +13,7 @@
 
 ## 🛠️ Built With
 
-- Python 3.11
+- Python 3.12
 - PySide6 (Qt for Python)
 - requests, packaging, subprocess
 
