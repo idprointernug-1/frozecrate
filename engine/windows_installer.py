@@ -1,0 +1,2 @@
+"""FrozeCrate - Windows Installer"""
+
