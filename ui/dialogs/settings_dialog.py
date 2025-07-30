@@ -1,0 +1,2 @@
+"""FrozeCrate - Settings Dialog"""
+

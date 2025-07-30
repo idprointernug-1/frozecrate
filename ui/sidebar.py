@@ -1,0 +1,2 @@
+"""FrozeCrate - Sidebar"""
+

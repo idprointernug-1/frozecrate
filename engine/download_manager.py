@@ -1,0 +1,2 @@
+"""FrozeCrate - Download Manager"""
+

@@ -1,0 +1,2 @@
+"""FrozeCrate - Search Widget"""
+
