@@ -17,8 +17,9 @@ def get_cpu_info():
             "model": cpu_info.get('brand_raw', 'Unknown'),
             "cores": psutil.cpu_count(logical=False),
             "threads": psutil.cpu_count(logical=True),
-            "base_clock_ghz": round(cpu_info.get('hz_advertised_friendly', 0) / 1_000_000_000, 2) if cpu_info.get('hz_advertised_friendly') else 0,
-            "max_clock_ghz": round(cpu_info.get('hz_actual_friendly', 0) / 1_000_000_000, 2) if cpu_info.get('hz_actual_friendly') else 0
+            "base_clock_ghz": round(cpu_info.get('hz_advertised', [0])[0] / 1_000_000_000, 2) if cpu_info.get('hz_advertised') else 0,
+            "max_clock_ghz": round(cpu_info.get('hz_actual', [0])[0] / 1_000_000_000, 2) if cpu_info.get('hz_actual') else 0
+
         }
     except ImportError:
         # Fallback without cpuinfo library
