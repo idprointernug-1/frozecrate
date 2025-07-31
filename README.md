@@ -53,7 +53,7 @@ Pull requests are welcome! If you'd like to contribute new features, improve the
 
 ## ✨ Credits
 
-Created with ❤️ to make open-source creativity more accessible.
+Created with ❤️ by the lead developer Mohamed Aazir Abdul Hathi (preferably called as MZA) to make open-source creativity more accessible.
 
 ---
 
